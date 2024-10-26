@@ -1,5 +1,5 @@
 ## pdfjail
-Remove the password lock of all PDF files in a directory. (Windows)
+Remove the password lock of all PDF files in current directory. (Windows)
 
 ## Install
 1. `pip install pikepdf`
@@ -8,9 +8,8 @@ Remove the password lock of all PDF files in a directory. (Windows)
 
 ## Usage
 ```
-pdfjail PASSWORD [DIRECTORY]
+pdfjail PASSWORD
 ```
-`DIRECTORY`: default `.`
 
 
 
