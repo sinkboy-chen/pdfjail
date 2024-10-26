@@ -2,9 +2,13 @@
 Remove the password lock of all PDF files in current directory. (Windows)
 
 ## Install
-1. `pip install pikepdf`
-1. Have a folder containing `pdfjail.bat`, `pdfjail.py`.
-1. Add folder to environment variable PATH.
+```
+pip install pikepdf
+git clone https://github.com/sinkboy-chen/pdfjail.git
+mv pdfjail/pdfjail.bat pdfjail/pdfjail.py ..
+```
+
+Add current path to environment variable PATH.
 
 ## Usage
 ```
