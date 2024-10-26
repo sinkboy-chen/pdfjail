@@ -15,6 +15,8 @@ if "%~2"=="" (
     set "directory=%~2"   :: Use specified directory
 )
 
+set scriptDir=%~dp0
+cd /d "%scriptDir%"
 :: Run the Python script with the provided arguments
 python pdfjail.py "%password%" "%directory%"
 
